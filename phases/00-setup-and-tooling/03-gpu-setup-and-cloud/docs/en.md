@@ -5,7 +5,7 @@
 **Type:** Build
 **Languages:** Python
 **Prerequisites:** Phase 0, Lesson 01
-**Time:** ~45 minutes
+**Time:** \~45 minutes
 
 ## Learning Objectives
 
@@ -128,9 +128,10 @@ if torch.cuda.is_available():
 
 ## Key Terms
 
-| Term | What people say | What it actually means |
-|------|----------------|----------------------|
-| CUDA | "GPU programming" | NVIDIA's parallel computing platform that lets you run code on the GPU |
-| VRAM | "GPU memory" | Video RAM on the GPU, separate from system RAM. Limits model size. |
-| fp16 | "Half precision" | 16-bit floating point, uses half the memory of fp32 with minimal accuracy loss |
+| Term        | What people say        | What it actually means                                                          |
+| ----------- | ---------------------- | ------------------------------------------------------------------------------- |
+| CUDA        | "GPU programming"      | NVIDIA's parallel computing platform that lets you run code on the GPU          |
+| VRAM        | "GPU memory"           | Video RAM on the GPU, separate from system RAM. Limits model size.              |
+| fp16        | "Half precision"       | 16-bit floating point, uses half the memory of fp32 with minimal accuracy loss  |
 | Tensor Core | "Fast matrix hardware" | Specialized GPU cores for matrix multiplication, 4-8x faster than regular cores |
+
